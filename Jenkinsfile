@@ -36,7 +36,7 @@ node {
 sh """
 az webapp deploy \
   --resource-group jenkins-get-started-rg \
-  --name bochunjenkinsapp \
+  --name bochun-linux-app \
   --src-path target/calculator-1.0.war \
   --type war
 """
